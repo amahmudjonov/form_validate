@@ -7,6 +7,12 @@ const password = document.getElementById("password_el");
 const eyeClick = document.querySelector("[data-password]");
 const button = document.querySelector(".submit-btn");
 
+// Event - From Submit
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  checksInputs();
+});
+
 // Event - Eye Click
 eyeClick.onclick = () => {
   const icon = eyeClick.children[0];
@@ -17,12 +23,6 @@ eyeClick.onclick = () => {
     password.setAttribute("type", "password");
   }
 };
-
-// Event - From Submit
-form.addEventListener("submit", function (e) {
-  e.preventDefault();
-  checksInputs();
-});
 
 // Function CheckInputs
 function checksInputs() {

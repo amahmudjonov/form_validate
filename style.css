@@ -147,3 +147,166 @@ input:focus + .label-text {
 .fa-eye {
   cursor: pointer;
 }
+
+/* MEDIA QUERY */
+
+@media (max-width: 38.125rem) {
+  /* Form Sign-Up */
+
+  .signup-form {
+    padding: 50px;
+    max-width: 400px;
+    margin: 100px auto 0 auto;
+  }
+
+  .signup-form .title {
+    margin-bottom: 20px;
+    font-size: calc(35 / 16 * 1rem);
+  }
+
+  input {
+    margin: 20px 0;
+    padding: 20px 5px 5px 10px;
+    font-size: calc(18 / 16 * 1rem);
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    width: 400px;
+  }
+
+  input[type="text"] {
+    width: 400px;
+  }
+  /* Wrapper */
+
+  #first-name,
+  #last-name {
+    width: 178px;
+  }
+
+  .input-wrapper .mv-right {
+    margin-right: 20px;
+  }
+
+  /* Label */
+  .label p,
+  .label i {
+    font-size: calc(18 / 16 * 1rem);
+  }
+
+  .label-text {
+    top: 18px;
+    left: 15px;
+  }
+
+  .input-wrapper .label .f-name {
+    right: 35px;
+    bottom: 36px;
+    font-size: calc(20 / 16 * 1rem);
+  }
+
+  .label i {
+    right: 15px;
+    bottom: 36px;
+    transform-origin: left;
+    font-size: calc(20 / 16 * 1rem);
+  }
+
+  /* Button */
+
+  .submit-btn {
+    margin: 30px 0 0;
+    padding: 15px 20px;
+    font-size: calc(18 / 16 * 1rem);
+  }
+}
+
+@media (max-width: 29.375rem) {
+  /* Form Sign-Up */
+
+  input {
+    margin: 20px 0;
+    padding: 20px 5px 5px 10px;
+    font-size: calc(18 / 16 * 1rem);
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    width: 370px;
+  }
+
+  input[type="text"] {
+    width: 370px;
+  }
+  /* Wrapper */
+
+  #first-name,
+  #last-name {
+    width: 165px;
+  }
+}
+
+@media (max-width: 26.25rem) {
+  /* Form Sign-Up */
+
+  .signup-form {
+    padding: 30px;
+    max-width: 280px;
+    margin: 100px auto 0 auto;
+  }
+
+  .signup-form .title {
+    margin-bottom: 20px;
+    font-size: calc(30 / 16 * 1rem);
+  }
+
+  input {
+    margin: 20px 0;
+    padding: 20px 5px 5px 10px;
+    font-size: calc(18 / 16 * 1rem);
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    width: 250px;
+  }
+
+  input[type="text"] {
+    width: 250px;
+  }
+  /* Wrapper */
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #first-name,
+  #last-name {
+    width: 250px;
+  }
+
+  .input-wrapper .mv-right {
+    margin-right: 0;
+  }
+
+  .input-wrapper .label .f-name {
+    right: 15px;
+    bottom: 36px;
+    font-size: calc(20 / 16 * 1rem);
+  }
+
+  .label i {
+    right: 15px;
+    bottom: 36px;
+    transform-origin: left;
+    font-size: calc(20 / 16 * 1rem);
+  }
+  /* Button */
+
+  .submit-btn {
+    margin: 30px 0 0;
+    padding: 12px 20px;
+    font-size: calc(18 / 16 * 1rem);
+  }
+}

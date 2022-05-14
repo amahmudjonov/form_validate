@@ -7,6 +7,17 @@ const password = document.getElementById("password_el");
 const eyeClick = document.querySelector("[data-password]");
 const button = document.querySelector(".submit-btn");
 
+// Event - Eye Click
+eyeClick.onclick = () => {
+  const icon = eyeClick.children[0];
+  icon.classList.toggle("fa-eye-slash");
+  if (password.type === "password") {
+    password.setAttribute("type", "text");
+  } else if (password.type === "text") {
+    password.setAttribute("type", "password");
+  }
+};
+
 // Event - From Submit
 form.addEventListener("submit", function (e) {
   e.preventDefault();

@@ -13,8 +13,7 @@ I have built a form validation using HTML, CSS and  JavaScript. The Form has a p
 **Live:** https://create-account-validation.netlify.app/
 
 
-https://user-images.githubusercontent.com/71933266/170869289-6e1698d6-f669-4f3d-af43-fbdad7e3c9e1.mp4
 
 
-
+https://user-images.githubusercontent.com/71933266/174468588-286671bd-1b06-4c33-821c-b4106db79f9b.mp4
 

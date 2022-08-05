@@ -10,7 +10,6 @@ I have built a form validation using HTML, CSS and  JavaScript. The Form has a p
 * JavaScript
 ## How it looks 🎥
 
-**Live:** https://create-account-validation.netlify.app/
 
 
 
